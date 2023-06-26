@@ -168,3 +168,27 @@
   background: #f00;
   color:#fff
 }
+/* Styles for desktop screens */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  /* Add more CSS rules specific to desktop screens */
+}
+
+/* Styles for tablet screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+  /* Add more CSS rules specific to tablet screens */
+}
+
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  /* Add more CSS rules specific to mobile screens */
+}
+
