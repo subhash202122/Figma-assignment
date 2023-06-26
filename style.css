@@ -153,6 +153,7 @@
   align-self: stretch;
   border-radius: 8px;
   background: var(--button-affirm, #32c1ff);
+  color:#fff
 }
 
 .cancel {
@@ -165,4 +166,5 @@
   align-self: stretch;
   border-radius: 8px;
   background: #f00;
+  color:#fff
 }
